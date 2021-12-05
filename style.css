@@ -753,15 +753,13 @@ a {
   padding: 1.5em 0 3em 0;
 }
 #section-3 {
-  padding: 0 1em 0 1em;
-  background-color: #ffff;
       grid-template-areas: "box-1 box-1 box-1 box-1"
                             "box-2 box-2 box-2 box-2"
                             "box-3 box-3 box-3 box-3"
                             "box-4 box-4 box-4 box-4";
 }
 #section-3 .container {
-  background-color: black;
+  height: auto;
 }
 #section-3 .container .service-gradient-bar {
   display: none;
